@@ -280,11 +280,11 @@ footer {
 
 @media (max-width: 828px) {
     header h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     nav a {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .profile img {
@@ -293,8 +293,13 @@ footer {
     }
 
     .profile h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
+
+    .profile h2, .contact-me h2 {
+        font-size: 1.5rem;
+    }
+
 
     .background, 
     .technical-skills, 
