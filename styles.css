@@ -108,6 +108,7 @@ nav a:hover::after {
     align-items: center;
     text-align: justify;
     padding: 5rem;
+    background-color: rgba(87, 197, 160, 0.267);
 }
 
 .profile h1 {
@@ -134,16 +135,24 @@ nav a:hover::after {
 
 /* Content Sections */
 .background, 
-.technical-skills, 
-.contact-me {
+.technical-skills {
     max-width: 900px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.contact-me {
+    display: block;
+    text-align: center;
+    justify-items: center;
     margin: 0 auto;
     padding: 5rem 2rem;
     background-color: rgba(87, 197, 160, 0.267);
     border-radius: 10px;
     margin-bottom: 2rem;
 }
-
 h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
