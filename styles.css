@@ -221,15 +221,20 @@ ul li::before {
 }
 
 /* Contact Section */
+.cv {
+    background-color: var(--navy);
+    color: var(--light-accent);
+    width: 20%;
+    display: flex;
+}
+
 .reach-me {
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 2rem;
 }
   
 .reach-me li {
-    padding-left: 0;
     list-style: none;
 }
   
@@ -242,20 +247,24 @@ ul li::before {
     align-items: center;
     gap: 0.5rem;
     padding: 0.8rem 1.5rem;
-    background-color: transparent;
-    color: var(--navy);
+    background-color: var(--navy);
+    color: var(--light-accent);
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 0;
     border: 1px solid rgba(247, 1, 1, 0.185);
     transition: all 0.3s ease;
     font-weight: 500;
+    border-radius: 50px;
 }
   
-.reach-me a:hover {
+.fa-google:hover,
+.fa-linkedin:hover,
+.fa-download:hover {
     background-color: var(--accent);
     color: var(--navy);
     transform: translateY(-3px);
     box-shadow: 0 4px 12px rgba(153, 204, 255, 0.2);
+    opacity: 0.7;
 }
 
 /* Footer */
@@ -308,7 +317,6 @@ footer {
     }
 
     .reach-me {
-        flex-direction: column;
         gap: 1rem;
     }
     
